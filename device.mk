@@ -245,6 +245,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     sensors.msm8952
 
+# SnapdragonGallery
+PRODUCT_PACKAGES += \
+    SnapdragonGallery
+
 # WCNSS
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/WCNSS_qcom_cfg.ini:system/etc/wifi/WCNSS_qcom_cfg.ini \
